@@ -33,7 +33,12 @@ body {
 }
 
 
-
+/*AboutUs.html   CSS Style      */
+.reserve-color,.btn-sm{
+    background-color:#CD853F;
+    color:#ffffff;
+    font-size:20px;
+}
 
 
 
