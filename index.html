@@ -261,7 +261,6 @@
                     </div>
                 </div>
             </div>               <!-- CAROUSEL ******** CLASS ********ADDED**********ENDED-->         
-        </div>
         
         
         
@@ -444,43 +443,7 @@
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     
-    <!--<script>
-        
-       $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();           //For controlling the Tooltip
-        }); 
-    </script>
-    <script>
-         $(document).ready(function(){
-           $("#mycarousel").carousel({interval:2000});   //Controls te two carousel buttons
-            
-            $("#carousel-pause").click(function(){
-               $("#mycarousel").carousel('pause'); 
-            });
-            
-            $("#carousel-play").click(function(){
-               $("#mycarousel").carousel('cycle'); 
-            });
-        });    
-    </script>-->
-    <script>
-        $(document).ready(function(){
-           $("#carousel-button").click(function(){
-               if($("#carousel-button").children("span").hasClass('fa-pause'))
-                   {
-                       $("#mycarousel").carousel('pause');
-                       $("#carousel-button").children("span").removeClass('fa-pause');
-                       $("#carousel-button").children("span").addClass('fa-play');
-                   }
-               else if($("#carousel-button").children("span").hasClass('fa-play'))
-                   {
-                       $("#mycarousel").carousel('cycle');
-                       $("#carousel-button").children("span").removeClass('fa-play');
-                       $("#carousel-button").children("span").addClass('fa-pause');
-                   }
-           }) ;
-        });
-    </script>
+    <script src="js/script.js"></script>
+    
 </body>
-
 </html>
