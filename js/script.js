@@ -30,6 +30,7 @@
                        $("#mycarousel").carousel('cycle');
                        $("#carousel-button").children("span").removeClass('fa-play');
                        $("#carousel-button").children("span").addClass('fa-pause');
+                       
                    }
            }) ;
         });
