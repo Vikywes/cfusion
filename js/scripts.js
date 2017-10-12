@@ -33,4 +33,15 @@
                        
                    }
            }) ;
+            
+            // for Login Modal at the top of the Navbar
+            $("#loginModalButton").click(function(){
+                $("#loginModal").modal('toggle');    //modal.('toggle')
+            });
+            
+            //For Reserve Button
+            $("#reserveFormModal").click(function(){
+                $("#reserveModal").modal('show');
+            });
+            
         });

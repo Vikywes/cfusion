@@ -68,4 +68,19 @@ body{
     bottom: 0px;
 }
 
+//Modal classes --Login Menu & Reserve Table
+.modal-header{
+    background-color: $background-dark;
+    color:floralwhite;
+    
+    .close{
+        background-color:floralwhite;
+    }
+}
+.modal-body{
+    background-color: $background-pale;
+}
+.modal-footer{
+    background-color: $background-light;
+}
 
